@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.imagen-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    margin: 10px;
+    width: 260px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #2E65F1;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    width: 695px;
+    font-family: 'Poppins';
+    padding: 17.118px 17.118px 17.118px 40px;
+    gap: 17.118px;
+    border-radius: 17.118px;
+    background: #ECECEC;
+    border: none;
+    margin: 2rem;
+    font-size: 1rem;
+}
+
+.boton {
+    display: flex;
+    font-family: 'Poppins';
+    color: white;
+    width: 710px;
+    padding: 17.551px;
+    gap: 17.551px;
+    border-radius: 17.551px;
+    background: #2E65F1;
+    border: none;
+    margin: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton:hover {
+    background-color: #8F85F5;
+    size: 1rem;
+}
+
+i {
+    position: absolute;
+    margin-left: 23px;
+    padding-left: 24px;
+    font-size: 1rem;
+}
+
+
+.container-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-validacion {
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: row; */
+}
+
+.validacion {
+    display: flex;
+    flex-direction: center;
+}
+
+p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1025px) {
+
+    .logo {
+        width: 200px;
+    }
+
+    input {
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        width: 262.5px;
+        margin: 1rem;
+    }
+
+    .boton {
+        width: 280px;
+        margin: 1rem;
+        padding: 10px;
+    }
+
+    .titulo {
+        font-size: 10px;
+    }
+
+    i {
+        font-size: 12px;
+        padding-left: 15px;
+    }
+
+
+    .validacion {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+    }
+}
+
+/* @media only screen and (min-width: 1026px) {
+    .logo {
+        width: 15px;
+    }
+
+    .titulo {
+        font-size: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    input {
+        display: flex;
+        justify-content: center;
+        margin: 0.5rem;
+    }
+
+} */

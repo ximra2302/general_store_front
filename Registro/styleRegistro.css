@@ -1,0 +1,144 @@
+body {
+    font-family: poppins;
+}
+
+.container-registro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 200px;
+    padding: 10px;
+}
+
+.container-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    text-align: center;
+    color: #2E65F1;
+    font-size: 1.5rem;
+}
+
+.container-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 8px; */
+}
+
+.option {
+    border: none;
+    background: #ECECEC;
+    font-family: Poppins;
+    width: 100%;
+    padding: 6.646px;
+    border-radius: 6.646px;
+    box-sizing: border-box;
+    /* margin: 8px; */
+}
+
+.input-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    border: none;
+    font-family: Poppins;
+    border-radius: 6.646px;
+    width: 100%;
+    padding: 6.646px;
+    margin: 8px;
+    background: #ECECEC;
+    box-sizing: border-box;
+}
+
+.input-checkbox {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.item-checkbox1 {
+    font-size: 9px;
+    margin-top: 20px;
+}
+
+.item-checkbox2 {
+    font-size: 9px;
+    margin-top: 4px;
+}
+
+.item-btn {
+    border: none;
+    border-radius: 6.813px;
+    background: #2E65F1;
+    color: #ffff;
+    font-family: Poppins;
+    padding: 6.813px;
+    width: 269.809px;
+    margin: 20px;
+}
+
+.item-btn:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    background: #5484fd;
+    transition: background 0.3s;
+}
+
+@media only screen and (min-width: 1026px) {
+    .logo {
+        width: 450px;
+
+    }
+
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .item {
+        width: 695px;
+        padding: 17.118px;
+        font-size: 18px;
+
+    }
+
+    .option {
+        width: 660px;
+        padding: 17.6px;
+        font-size: 18px;
+    }
+
+    .item-checkbox1 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .item-checkbox2 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .item-btn {
+        width: 695px;
+        padding: 17.551px;
+        font-size: 18px;
+
+
+    }
+}

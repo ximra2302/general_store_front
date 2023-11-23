@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleRegistro.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-registro" id="form">
+        <div class="container-logo">
+            <picture><img src="image/general.svg" alt="general Store logo" class="logo"></picture>
+        </div>
+        <form action="" id="formulario">
+            <div class="container-titulo">
+                <h1 class="titulo">Regístrate para acceder a ofertas exclusivas y promociones.</h1>
+            </div>
+            <div class="container-option">
+                <select class="option" id="tipo-documento">
+                    <option selected disable hidden value="">Tipo de documento</option>
+                    <option value="Cedula de ciudadania">Cédula de ciudadania</option>
+                    <option value="Cedula de extrangería">Cédula de extrangería</option>
+                    <option value="pasaporte">pasaporte</option>
+                </select>
+            </div>
+            <div class="input-item">
+                <input type="text" id="documento" class="item" placeholder="Número de documento">
+            </div>
+            <div class="input-item">
+                <input type="text" id="nombre" class="item" placeholder="Nombre">
+            </div>
+            <div class="input-item">
+                <input type="text" id="apellido" class="item" placeholder="Apellido">
+            </div>
+            <div class="input-item">
+                <input type="text" id="Nombre-de-usuario" class="item" placeholder="Nombre de usuario">
+            </div>
+            <div class="input-item">
+                <input type="email" id="correo" class="item" placeholder="Correo electronico">
+            </div>
+            <div class="input-item">
+                <input type="text" id="password" class="item" placeholder="contraseña">
+            </div>
+            <div class="input-item">
+                <input type="checkbox" class="item-checkbox1" id="terminos">
+                <label for="" class="item-checkbox1">Acepto condiciones de
+                    tratamiento de
+                    datos</label>
+            </div>
+            <div class="input-checkbox">
+                <input type="checkbox" class="item-checkbox2" id="boletin">
+                <label for="" class="item-checkbox2">Recibe nuevas novedades</label>
+            </div>
+            <div class="input-item">
+                <input type="submit" id="enviar" value="Registrarse" class="item-btn">
+            </div>
+    </div>
+    </form>
+    <div id="alerta"></div>
+</body>
+<script src="registro.js"></script>
+
+</html>
